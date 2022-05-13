@@ -7,21 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D400937281E03D100DFBBF4 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D400936281E03D100DFBBF4 /* PieChart.swift */; };
+		8D400938281E03D100DFBBF4 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D400936281E03D100DFBBF4 /* PieChart.swift */; };
 		8D7C17302814BF2400D05D9F /* NutriPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C17202814BF2100D05D9F /* NutriPalApp.swift */; };
 		8D7C17312814BF2400D05D9F /* NutriPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C17202814BF2100D05D9F /* NutriPalApp.swift */; };
 		8D7C17322814BF2400D05D9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C17212814BF2100D05D9F /* ContentView.swift */; };
 		8D7C17332814BF2400D05D9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C17212814BF2100D05D9F /* ContentView.swift */; };
 		8D7C17342814BF2400D05D9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D7C17222814BF2400D05D9F /* Assets.xcassets */; };
 		8D7C17352814BF2400D05D9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D7C17222814BF2400D05D9F /* Assets.xcassets */; };
+		8D7C173F2814C0BB00D05D9F /* FoodTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C173E2814C0BB00D05D9F /* FoodTile.swift */; };
+		8D7C17402814C0BB00D05D9F /* FoodTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C173E2814C0BB00D05D9F /* FoodTile.swift */; };
+		8D7C17432814C4CA00D05D9F /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C17422814C4CA00D05D9F /* UIScreen.swift */; };
+		8D7C17442814C4CA00D05D9F /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C17422814C4CA00D05D9F /* UIScreen.swift */; };
+		8D7C17472814D68600D05D9F /* ExerciseTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C17462814D68600D05D9F /* ExerciseTile.swift */; };
+		8D7C17482814D68600D05D9F /* ExerciseTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C17462814D68600D05D9F /* ExerciseTile.swift */; };
+		8D8988B0281E1A6E0023E5E9 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8988AF281E1A6E0023E5E9 /* LineChart.swift */; };
+		8D99DD32282A2E5A00B4BA3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D99DD31282A2E5A00B4BA3B /* GoogleService-Info.plist */; };
+		8D99DD36282A319B00B4BA3B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8D99DD35282A319B00B4BA3B /* FirebaseAuth */; };
+		8D99DD38282A319B00B4BA3B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8D99DD37282A319B00B4BA3B /* FirebaseFirestore */; };
+		8DAE80B0281DF46A00026770 /* RecentExerciseTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE80AF281DF46A00026770 /* RecentExerciseTile.swift */; };
+		8DAE80B1281DF46A00026770 /* RecentExerciseTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE80AF281DF46A00026770 /* RecentExerciseTile.swift */; };
+		8DAE80B3281DF77A00026770 /* RecentFoodTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE80B2281DF77A00026770 /* RecentFoodTile.swift */; };
+		8DAE80B4281DF77A00026770 /* RecentFoodTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE80B2281DF77A00026770 /* RecentFoodTile.swift */; };
+		8DAE80B6281DFB7D00026770 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE80B5281DFB7D00026770 /* HomeView.swift */; };
+		8DAE80B7281DFB7D00026770 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE80B5281DFB7D00026770 /* HomeView.swift */; };
+		8DF23E0A281E200D001B1280 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF23E09281E200D001B1280 /* BarChart.swift */; };
+		8DF23E10281E4137001B1280 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF23E0F281E4137001B1280 /* HistoryView.swift */; };
+		8DF23E19282A27FC001B1280 /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF23E18282A27FC001B1280 /* FoodView.swift */; };
+		8DF23E1B282A2834001B1280 /* FoodItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF23E1A282A2834001B1280 /* FoodItemView.swift */; };
+		8DF23E1E282A285F001B1280 /* FoodItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF23E1D282A285F001B1280 /* FoodItemModel.swift */; };
+		8DF23E20282A2871001B1280 /* FoodSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF23E1F282A2870001B1280 /* FoodSearchAPI.swift */; };
+		8DF23E22282A2882001B1280 /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF23E21282A2882001B1280 /* ExerciseModel.swift */; };
+		8DF23E24282A2890001B1280 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF23E23282A2890001B1280 /* UserModel.swift */; };
+		8DF23E25282A28B1001B1280 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF23E0F281E4137001B1280 /* HistoryView.swift */; };
+		8DF23E27282A28E8001B1280 /* ExerciseInputPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF23E26282A28E8001B1280 /* ExerciseInputPage.swift */; };
+		8DF23E29282A28FD001B1280 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF23E28282A28FD001B1280 /* SummaryView.swift */; };
+		8DF23E2B282A2911001B1280 /* SearchFoodPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF23E2A282A2911001B1280 /* SearchFoodPage.swift */; };
+		8DF23E2D282A2953001B1280 /* WeeklySummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF23E2C282A2953001B1280 /* WeeklySummaryView.swift */; };
+		8DF23E30282A29BC001B1280 /* NutritionAppEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF23E2F282A29BC001B1280 /* NutritionAppEntry.swift */; };
+		8DF23E32282A29D4001B1280 /* NutritionAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF23E31282A29D4001B1280 /* NutritionAppDelegate.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8D400948281E09C900DFBBF4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8D400936281E03D100DFBBF4 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
 		8D7C17202814BF2100D05D9F /* NutriPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriPalApp.swift; sourceTree = "<group>"; };
 		8D7C17212814BF2100D05D9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8D7C17222814BF2400D05D9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D7C17272814BF2400D05D9F /* NutriPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7C172D2814BF2400D05D9F /* NutriPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7C172F2814BF2400D05D9F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8D7C173E2814C0BB00D05D9F /* FoodTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTile.swift; sourceTree = "<group>"; };
+		8D7C17422814C4CA00D05D9F /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
+		8D7C17452814CB6B00D05D9F /* NutriPal--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "NutriPal--iOS--Info.plist"; sourceTree = "<group>"; };
+		8D7C17462814D68600D05D9F /* ExerciseTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTile.swift; sourceTree = "<group>"; };
+		8D8988AF281E1A6E0023E5E9 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		8D99DD31282A2E5A00B4BA3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8DAE80AF281DF46A00026770 /* RecentExerciseTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentExerciseTile.swift; sourceTree = "<group>"; };
+		8DAE80B2281DF77A00026770 /* RecentFoodTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentFoodTile.swift; sourceTree = "<group>"; };
+		8DAE80B5281DFB7D00026770 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8DF23E09281E200D001B1280 /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		8DF23E0F281E4137001B1280 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		8DF23E18282A27FC001B1280 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
+		8DF23E1A282A2834001B1280 /* FoodItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemView.swift; sourceTree = "<group>"; };
+		8DF23E1D282A285F001B1280 /* FoodItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemModel.swift; sourceTree = "<group>"; };
+		8DF23E1F282A2870001B1280 /* FoodSearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSearchAPI.swift; sourceTree = "<group>"; };
+		8DF23E21282A2882001B1280 /* ExerciseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
+		8DF23E23282A2890001B1280 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		8DF23E26282A28E8001B1280 /* ExerciseInputPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseInputPage.swift; sourceTree = "<group>"; };
+		8DF23E28282A28FD001B1280 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		8DF23E2A282A2911001B1280 /* SearchFoodPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFoodPage.swift; sourceTree = "<group>"; };
+		8DF23E2C282A2953001B1280 /* WeeklySummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklySummaryView.swift; sourceTree = "<group>"; };
+		8DF23E2F282A29BC001B1280 /* NutritionAppEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionAppEntry.swift; sourceTree = "<group>"; };
+		8DF23E31282A29D4001B1280 /* NutritionAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionAppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D99DD36282A319B00B4BA3B /* FirebaseAuth in Frameworks */,
+				8D99DD38282A319B00B4BA3B /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,21 +114,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D400945281E09C900DFBBF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8D7C171A2814BF2100D05D9F = {
 			isa = PBXGroup;
 			children = (
+				8D99DD31282A2E5A00B4BA3B /* GoogleService-Info.plist */,
+				8D7C17452814CB6B00D05D9F /* NutriPal--iOS--Info.plist */,
+				8D7C17412814C4AA00D05D9F /* Extension */,
 				8D7C171F2814BF2100D05D9F /* Shared */,
 				8D7C172E2814BF2400D05D9F /* macOS */,
 				8D7C17282814BF2400D05D9F /* Products */,
+				8D400945281E09C900DFBBF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		8D7C171F2814BF2100D05D9F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				8DF23E2E282A29A1001B1280 /* FirebaseServices */,
+				8DF23E16282A26B8001B1280 /* Views */,
+				8DF23E1C282A284E001B1280 /* Models */,
 				8D7C17202814BF2100D05D9F /* NutriPalApp.swift */,
 				8D7C17212814BF2100D05D9F /* ContentView.swift */,
 				8D7C17222814BF2400D05D9F /* Assets.xcassets */,
+				8DF23E09281E200D001B1280 /* BarChart.swift */,
+				8D8988AF281E1A6E0023E5E9 /* LineChart.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -78,6 +166,62 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		8D7C17412814C4AA00D05D9F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8D7C17422814C4CA00D05D9F /* UIScreen.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8DF23E16282A26B8001B1280 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8DF23E17282A26E2001B1280 /* Components */,
+				8DF23E0F281E4137001B1280 /* HistoryView.swift */,
+				8DF23E2C282A2953001B1280 /* WeeklySummaryView.swift */,
+				8DF23E26282A28E8001B1280 /* ExerciseInputPage.swift */,
+				8DF23E28282A28FD001B1280 /* SummaryView.swift */,
+				8DF23E2A282A2911001B1280 /* SearchFoodPage.swift */,
+				8DAE80B5281DFB7D00026770 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8DF23E17282A26E2001B1280 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8DAE80AF281DF46A00026770 /* RecentExerciseTile.swift */,
+				8D7C17462814D68600D05D9F /* ExerciseTile.swift */,
+				8D7C173E2814C0BB00D05D9F /* FoodTile.swift */,
+				8D400936281E03D100DFBBF4 /* PieChart.swift */,
+				8DAE80B2281DF77A00026770 /* RecentFoodTile.swift */,
+				8DF23E18282A27FC001B1280 /* FoodView.swift */,
+				8DF23E1A282A2834001B1280 /* FoodItemView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8DF23E1C282A284E001B1280 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8DF23E1D282A285F001B1280 /* FoodItemModel.swift */,
+				8DF23E1F282A2870001B1280 /* FoodSearchAPI.swift */,
+				8DF23E21282A2882001B1280 /* ExerciseModel.swift */,
+				8DF23E23282A2890001B1280 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8DF23E2E282A29A1001B1280 /* FirebaseServices */ = {
+			isa = PBXGroup;
+			children = (
+				8DF23E2F282A29BC001B1280 /* NutritionAppEntry.swift */,
+				8DF23E31282A29D4001B1280 /* NutritionAppDelegate.swift */,
+			);
+			path = FirebaseServices;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,12 +232,17 @@
 				8D7C17232814BF2400D05D9F /* Sources */,
 				8D7C17242814BF2400D05D9F /* Frameworks */,
 				8D7C17252814BF2400D05D9F /* Resources */,
+				8D400948281E09C900DFBBF4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "NutriPal (iOS)";
+			packageProductDependencies = (
+				8D99DD35282A319B00B4BA3B /* FirebaseAuth */,
+				8D99DD37282A319B00B4BA3B /* FirebaseFirestore */,
+			);
 			productName = "NutriPal (iOS)";
 			productReference = 8D7C17272814BF2400D05D9F /* NutriPal.app */;
 			productType = "com.apple.product-type.application";
@@ -142,6 +291,9 @@
 				Base,
 			);
 			mainGroup = 8D7C171A2814BF2100D05D9F;
+			packageReferences = (
+				8D99DD34282A319B00B4BA3B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 8D7C17282814BF2400D05D9F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -158,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D7C17342814BF2400D05D9F /* Assets.xcassets in Resources */,
+				8D99DD32282A2E5A00B4BA3B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +329,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF23E2D282A2953001B1280 /* WeeklySummaryView.swift in Sources */,
+				8DF23E19282A27FC001B1280 /* FoodView.swift in Sources */,
+				8DF23E1E282A285F001B1280 /* FoodItemModel.swift in Sources */,
+				8DAE80B3281DF77A00026770 /* RecentFoodTile.swift in Sources */,
+				8D400937281E03D100DFBBF4 /* PieChart.swift in Sources */,
+				8DF23E1B282A2834001B1280 /* FoodItemView.swift in Sources */,
+				8D7C17472814D68600D05D9F /* ExerciseTile.swift in Sources */,
+				8DF23E20282A2871001B1280 /* FoodSearchAPI.swift in Sources */,
+				8D7C173F2814C0BB00D05D9F /* FoodTile.swift in Sources */,
+				8DF23E30282A29BC001B1280 /* NutritionAppEntry.swift in Sources */,
+				8DF23E22282A2882001B1280 /* ExerciseModel.swift in Sources */,
+				8DF23E27282A28E8001B1280 /* ExerciseInputPage.swift in Sources */,
+				8D8988B0281E1A6E0023E5E9 /* LineChart.swift in Sources */,
+				8DAE80B0281DF46A00026770 /* RecentExerciseTile.swift in Sources */,
+				8DF23E2B282A2911001B1280 /* SearchFoodPage.swift in Sources */,
 				8D7C17322814BF2400D05D9F /* ContentView.swift in Sources */,
 				8D7C17302814BF2400D05D9F /* NutriPalApp.swift in Sources */,
+				8DF23E10281E4137001B1280 /* HistoryView.swift in Sources */,
+				8DF23E0A281E200D001B1280 /* BarChart.swift in Sources */,
+				8DAE80B6281DFB7D00026770 /* HomeView.swift in Sources */,
+				8DF23E29282A28FD001B1280 /* SummaryView.swift in Sources */,
+				8DF23E32282A29D4001B1280 /* NutritionAppDelegate.swift in Sources */,
+				8DF23E24282A2890001B1280 /* UserModel.swift in Sources */,
+				8D7C17432814C4CA00D05D9F /* UIScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +360,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF23E25282A28B1001B1280 /* HistoryView.swift in Sources */,
+				8DAE80B4281DF77A00026770 /* RecentFoodTile.swift in Sources */,
+				8D400938281E03D100DFBBF4 /* PieChart.swift in Sources */,
+				8D7C17482814D68600D05D9F /* ExerciseTile.swift in Sources */,
+				8D7C17402814C0BB00D05D9F /* FoodTile.swift in Sources */,
+				8DAE80B1281DF46A00026770 /* RecentExerciseTile.swift in Sources */,
 				8D7C17332814BF2400D05D9F /* ContentView.swift in Sources */,
 				8D7C17312814BF2400D05D9F /* NutriPalApp.swift in Sources */,
+				8DAE80B7281DFB7D00026770 /* HomeView.swift in Sources */,
+				8D7C17442814C4CA00D05D9F /* UIScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +495,7 @@
 				DEVELOPMENT_TEAM = LM6RSLG229;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NutriPal--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,6 +526,7 @@
 				DEVELOPMENT_TEAM = LM6RSLG229;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NutriPal--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,6 +635,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8D99DD34282A319B00B4BA3B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D99DD35282A319B00B4BA3B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D99DD34282A319B00B4BA3B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8D99DD37282A319B00B4BA3B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D99DD34282A319B00B4BA3B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8D7C171B2814BF2100D05D9F /* Project object */;
 }
